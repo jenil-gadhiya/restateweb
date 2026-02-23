@@ -54,7 +54,7 @@ const containerVariants = {
       delayChildren: 0.1,
     },
   },
-};
+}; 
 
 const itemVariants = {
   hidden: { opacity: 0, y: 20 },
@@ -164,7 +164,7 @@ function PropertyCard({ property, index }: any) {
           transform: isHovered ? "scale(1.1)" : "scale(1)",
         }}
       />
-
+ 
       {/* 3D Effect overlay */}
       <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent opacity-80 group-hover:opacity-60 transition-opacity duration-300" />
 
